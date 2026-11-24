@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-top: 10px;
+}
+.h1{
+    margin-right: 50px;
+}
+.bigimage img{
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.bigimage{
+    animation: left 1s;
+}
+
+@keyframes left {
+    from{
+        transform: translate(-500px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+
+
+
+
+
+
+.boxs img{
+    width: 300px;
+    height:280px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.boxs{
+    animation: right 1s;
+}
+
+@keyframes right{
+    from{
+        transform: translate(500px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+
+
+
+
+.box{
+    display: flex;
+    gap: 80px;
+    margin-left: 30px;
+}
+
+.con{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.con img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    animation: images 1s;
+}
+
+@keyframes images{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+
+
+.h1p{
+    margin-left: 40px;
+
+}
+.h1p{
+    animation: casual 1s;
+}
+@keyframes casual{
+    from{
+        transform: translate(-500px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+
+.h1p p{
+    margin-top: 20px;
+}
+.h1p button{
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.sawiro img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.sawiro{
+    animation: rotate 1s;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(100deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+.Allt{
+    display: flex;
+    gap: 50px
+    ;
+    margin-left:130px;
+    /* justify-content: space-around; */
+    margin-top: 40px;
+
+}
+.pp{
+    margin-left: 130px;
+    margin-top: 20px;
+    animation: trending 1s;
+}
+@keyframes trending {
+    from{
+        transform: translate(-500px);
+    }
+    to{
+        transform: translate(0px);
+    }
+    
+}
+
+
+
+.wayn img{
+    width: 90%;
+    height: 700px;
+    margin-left: 70px;
+    margin-top: 60px;
+    bord: 30px;
+    /* width: 700px; */
+    animation: wayn 1s;
+}
+
+@keyframes wayn {
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+    
+}
+
+.sawr img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.blogs{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+.hhp p{
+    margin-top: 20px;
+}
+.hhp button{
+    margin-top: 30px;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    animation: btn 2s;
+}
+@keyframes btn {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+    
+}
+
+.hhp{
+
+    animation: leftright 1s;
+}
+
+@keyframes leftright {
+    from{
+        transform: translate(-500px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+.hh1{
+    margin-left: 100px;
+    margin-top: 40px;
+    animation: hh1 1s;
+}
+@keyframes hh1 {
+    from{
+        transform: translate(-500px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+
+.sawr p{
+    margin-bottom: 10px ;
+}
+.sawr{
+    animation: rightleft 1s;
+}
+@keyframes rightleft {
+    from{
+        transform: translate(800px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+
+
+.footer{
+    background-color: black;
+    height: 300px;
+    margin-top: 40px;
+}
+.foter{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.m{
+    color: white;
+    animation: foter 1s;
+}
+@keyframes foter {
+    from{
+        transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+input{
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    animation: input 1s;
+}
+@keyframes input {
+    from{
+        transform: translateY(400px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+.m button{
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    animation: btnn 1s;
+}
+@keyframes btnn {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+    
+}
+
+.m p{
+    color: rgb(203, 203, 203);
+    margin-top: 10px;
+}
+
+
+ 
+
+@media screen and(max-width: 768px){
+    .container{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .nav ul{
+        flex-direction: column;
+        align-items: center;
+         
+    }
+    .box{
+    flex-direction: column;
+    gap: 10px;
+    margin-left: -0px;
+}
+
+   
+    
+    .boxs img{
+    width: 100px;
+    height:200px;
+    margin-top: 0px;
+    }
+
+    .con{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .Allt{
+        flex-direction: column;
+        gap: 20px;
+    
+        
+    }
+    .blogs{
+        flex-direction: column;
+        gap: 20px;
+    }
+   
+
+
+    /* .foter{
+        flex-direction: column;
+        gap: 10px;
+    } */
+    .footer{
+        height: 500px;
+
+    }
+    .foter{
+        flex-direction: column;
+        gap: 10px;
+    
+    }
+}
